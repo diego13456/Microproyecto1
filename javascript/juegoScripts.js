@@ -10,10 +10,10 @@ const nombreJugadorSpan = document.getElementById('nombreJugadorSpan');
 nombreJugadorSpan.textContent = nombre;
 
 const sounds = {
-    green: new Audio('../media/verde.mp3'),
-    red: new Audio('../media/rojo.mp3'),
-    yellow: new Audio('../media/amarillo.mp3'),
-    blue: new Audio('../media/azul.mp3')
+    green: new Audio('media/verde.mp3'),
+    red: new Audio('media/rojo.mp3'),
+    yellow: new Audio('media/amarillo.mp3'),
+    blue: new Audio('media/azul.mp3')
 };
 
 
